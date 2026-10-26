@@ -1,0 +1,21 @@
+{
+  "functions": {
+    "api/dashboard.js": {
+      "includeFiles": "dataadmin/index.html"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/dataadmin",
+      "destination": "/api/dashboard"
+    },
+    {
+      "source": "/dataadmin/",
+      "destination": "/api/dashboard"
+    },
+    {
+      "source": "/dataadmin/index.html",
+      "destination": "/api/dashboard"
+    }
+  ]
+}
